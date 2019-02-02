@@ -65,6 +65,12 @@
     </dependencies>
 
     <build>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+                <targetPath>resources</targetPath>
+            </resource>
+        </resources>    
         <!--<finalName>word-count</finalName>-->
         <plugins>
             <plugin>
